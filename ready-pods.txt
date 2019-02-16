@@ -1,0 +1,10 @@
+NAME                                                STATUS    ROLES     AGE       VERSION         EXTERNAL-IP      OS-IMAGE             KERNEL-VERSION    CONTAINER-RUNTIME
+gke-standard-cluster-1-default-pool-669010e8-6lj5   Ready     <none>    21m       v1.11.6-gke.6   35.222.177.53    Ubuntu 18.04.1 LTS   4.15.0-1023-gcp   docker://17.3.2
+gke-standard-cluster-1-default-pool-669010e8-nkz0   Ready     <none>    21m       v1.11.6-gke.6   35.239.248.146   Ubuntu 18.04.1 LTS   4.15.0-1023-gcp   docker://17.3.2
+NAME               READY     STATUS    RESTARTS   AGE       IP          NODE
+nginx-rs-5c7mq     1/1       Running   0          16m       10.8.1.7    gke-standard-cluster-1-default-pool-669010e8-nkz0
+nginx-rs-rwbxf     1/1       Running   0          16m       10.8.1.8    gke-standard-cluster-1-default-pool-669010e8-nkz0
+nginx-rs-wdldl     1/1       Running   0          16m       10.8.0.11   gke-standard-cluster-1-default-pool-669010e8-6lj5
+nginx-test-scmms   1/1       Running   0          15m       10.8.1.9    gke-standard-cluster-1-default-pool-669010e8-nkz0
+ubuntu-ds-dbjjs    1/1       Running   0          15m       10.8.0.12   gke-standard-cluster-1-default-pool-669010e8-6lj5
+ubuntu-ds-vngdb    1/1       Running   0          15m       10.8.1.10   gke-standard-cluster-1-default-pool-669010e8-nkz0
